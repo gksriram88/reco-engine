@@ -1,0 +1,341 @@
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    Connecting to cluster, contact points: ['10.2.3.21', '10.2.3.182', '10.2.4.152']; protocol version: 4
+Thu, 06 Jul 2017 13:56:22 cassandra.io.asyncorereactor DEBUG    Validated loop dispatch with <class 'cassandra.io.asyncorereactor._AsyncorePipeDispatcher'>
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Host 10.2.3.21 is now marked up
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Host 10.2.3.182 is now marked up
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Host 10.2.4.152 is now marked up
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    [control connection] Opening new connection to 10.2.3.21
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Not sending options message for new connection(139905866139744) to 10.2.3.21 because compression is disabled and a cql version was not specified
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sending StartupMessage on <AsyncoreConnection(139905866139744) 10.2.3.21:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sent StartupMessage on <AsyncoreConnection(139905866139744) 10.2.3.21:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.io.asyncorereactor DEBUG    Starting asyncore event loop
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Got ReadyMessage on new connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    [control connection] Established new connection <AsyncoreConnection(139905866139744) 10.2.3.21:9042>, registering watchers and refreshing schema and topology
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    [control connection] Refreshing node list and token map using preloaded results
+Thu, 06 Jul 2017 13:56:22 cassandra.policies INFO     Using datacenter 'ap-southeast' for DCAwareRoundRobinPolicy (via host '10.2.3.21'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    [control connection] Finished fetching ring info
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    [control connection] Rebuilding token map due to topology changes
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    Control connection created
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Initializing connection for host 10.2.3.21
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Initializing connection for host 10.2.4.152
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Not sending options message for new connection(139905849112392) to 10.2.4.152 because compression is disabled and a cql version was not specified
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Not sending options message for new connection(139905866141368) to 10.2.3.21 because compression is disabled and a cql version was not specified
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sending StartupMessage on <AsyncoreConnection(139905849112392) 10.2.4.152:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sending StartupMessage on <AsyncoreConnection(139905866141368) 10.2.3.21:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sent StartupMessage on <AsyncoreConnection(139905849112392) 10.2.4.152:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Sent StartupMessage on <AsyncoreConnection(139905866141368) 10.2.3.21:9042>
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Got ReadyMessage on new connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 13:56:22 cassandra.connection DEBUG    Got ReadyMessage on new connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Finished initializing connection for host 10.2.4.152
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    Added pool for host 10.2.4.152 to session
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Initializing connection for host 10.2.3.182
+Thu, 06 Jul 2017 13:56:22 cassandra.pool DEBUG    Finished initializing connection for host 10.2.3.21
+Thu, 06 Jul 2017 13:56:22 cassandra.cluster DEBUG    Added pool for host 10.2.3.21 to session
+Thu, 06 Jul 2017 13:56:23 cassandra.connection DEBUG    Not sending options message for new connection(139905849140784) to 10.2.3.182 because compression is disabled and a cql version was not specified
+Thu, 06 Jul 2017 13:56:23 cassandra.connection DEBUG    Sending StartupMessage on <AsyncoreConnection(139905849140784) 10.2.3.182:9042>
+Thu, 06 Jul 2017 13:56:23 cassandra.connection DEBUG    Sent StartupMessage on <AsyncoreConnection(139905849140784) 10.2.3.182:9042>
+Thu, 06 Jul 2017 13:56:23 cassandra.connection DEBUG    Got ReadyMessage on new connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:56:23 cassandra.pool DEBUG    Finished initializing connection for host 10.2.3.182
+Thu, 06 Jul 2017 13:56:23 cassandra.cluster DEBUG    Added pool for host 10.2.3.182 to session
+Thu, 06 Jul 2017 13:56:23 TRotatingFileHandler INFO     Cassandra Cluster Connected
+Thu, 06 Jul 2017 13:56:23 TRotatingFileHandler INFO     Welcome to the Dovetail Joint, a place for sending payloads.
+Thu, 06 Jul 2017 13:56:23 TRotatingFileHandler INFO     DJ is ready for payload.
+Thu, 06 Jul 2017 13:57:00 TRotatingFileHandler INFO     fetching recommended articles from reco engine
+Thu, 06 Jul 2017 13:57:00 TRotatingFileHandler INFO     Starting item similarity for article id: 57e0d57afb778560d7ca11d3
+Thu, 06 Jul 2017 13:57:00 TRotatingFileHandler INFO     Starting user similarity for user: GA1.2.2091858577.1471433758
+Thu, 06 Jul 2017 13:57:00 TRotatingFileHandler INFO     negating read articles for user=GA1.2.2091858577.1471433758
+Thu, 06 Jul 2017 13:57:00 TRotatingFileHandler INFO     negating trending articles
+Thu, 06 Jul 2017 13:57:01 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.scoopwhoop.com
+Thu, 06 Jul 2017 13:57:01 requests.packages.urllib3.connectionpool DEBUG    "GET /api/v2/trendrealtime/ HTTP/1.1" 200 2764
+Thu, 06 Jul 2017 13:57:01 TRotatingFileHandler INFO     negating news articles
+Thu, 06 Jul 2017 13:57:02 TRotatingFileHandler INFO     calculating final recommendations
+Thu, 06 Jul 2017 13:57:02 tornado.access INFO     200 GET /reco?userid=GA1.2.2091858577.1471433758&articleid=57e0d57afb778560d7ca11d3 (127.0.0.1) 1988.58ms
+Thu, 06 Jul 2017 13:57:02 tornado.access WARNING  404 GET /favicon.ico (127.0.0.1) 1.21ms
+Thu, 06 Jul 2017 13:57:06 TRotatingFileHandler INFO     fetching recommended articles from reco engine
+Thu, 06 Jul 2017 13:57:06 TRotatingFileHandler INFO     Starting item similarity for article id: 57e0d57afb778560d7ca11d3
+Thu, 06 Jul 2017 13:57:06 TRotatingFileHandler INFO     Starting user similarity for user: GA1.2.2091858577.1471433758
+Thu, 06 Jul 2017 13:57:06 TRotatingFileHandler INFO     negating read articles for user=GA1.2.2091858577.1471433758
+Thu, 06 Jul 2017 13:57:06 TRotatingFileHandler INFO     negating trending articles
+Thu, 06 Jul 2017 13:57:06 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.scoopwhoop.com
+Thu, 06 Jul 2017 13:57:07 requests.packages.urllib3.connectionpool DEBUG    "GET /api/v2/trendrealtime/ HTTP/1.1" 200 2763
+Thu, 06 Jul 2017 13:57:07 TRotatingFileHandler INFO     negating news articles
+Thu, 06 Jul 2017 13:57:08 TRotatingFileHandler INFO     calculating final recommendations
+Thu, 06 Jul 2017 13:57:08 tornado.access INFO     304 GET /reco?userid=GA1.2.2091858577.1471433758&articleid=57e0d57afb778560d7ca11d3 (127.0.0.1) 1848.38ms
+Thu, 06 Jul 2017 13:57:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:57:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:57:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:58:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:58:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:59:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 13:59:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:00:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:00:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:01:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:01:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:02:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:02:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:03:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:03:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:04:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:04:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:05:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:05:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:06:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:06:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:07:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:07:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:08:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:08:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:09:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:09:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:10:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:10:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:11:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:11:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:12:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:12:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:13:22 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866141368) 10.2.3.21
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849140784) 10.2.3.182
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905849112392) 10.2.4.152
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Sending options message heartbeat on idle connection (139905866139744) 10.2.3.21
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Received options response on connection (139905849140784) from 10.2.3.182
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Received options response on connection (139905866139744) from 10.2.3.21
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Received options response on connection (139905849112392) from 10.2.4.152
+Thu, 06 Jul 2017 14:13:52 cassandra.connection DEBUG    Received options response on connection (139905866141368) from 10.2.3.21
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Waiting for event loop thread to join...
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Asyncore event loop ended
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Event loop thread was joined
+Thu, 06 Jul 2017 14:14:12 cassandra.cluster DEBUG    Shutting down Cluster Scheduler
+Thu, 06 Jul 2017 14:14:12 cassandra.cluster DEBUG    Shutting down control connection
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closing connection (139905866139744) to 10.2.3.21
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closed socket to 10.2.3.21
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closing connection (139905866141368) to 10.2.3.21
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closed socket to 10.2.3.21
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closing connection (139905849140784) to 10.2.3.182
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closed socket to 10.2.3.182
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closing connection (139905849112392) to 10.2.4.152
+Thu, 06 Jul 2017 14:14:12 cassandra.io.asyncorereactor DEBUG    Closed socket to 10.2.4.152
